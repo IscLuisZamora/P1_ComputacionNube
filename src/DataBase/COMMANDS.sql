@@ -1,5 +1,8 @@
 use bd_libreria;
 
+SHOW DATABASES;
+DESCRIBE tbl_ope_libro;
+
 -- INSERTAR EDITORIAL
 SELECT * FROM tbl_cat_editorial;
 CAll sp_AddEditorial('Ediatorial 1');
